@@ -8,7 +8,7 @@ public class Expressao {
         System.out.println("Digite o valor de X: ");
         x = sc.nextDouble();
 
-        y = Math.pow(x-0.5, 1.0 / 6.0);
+        y = Math.pow(x - 0.5, 1.0 / 6.0);
         System.out.printf("Valor de Y: %.3f", y);
     }
 }
