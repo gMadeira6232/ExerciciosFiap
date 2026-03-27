@@ -10,5 +10,7 @@ public class Expressao {
 
         y = Math.pow(x - 0.5, 1.0 / 6.0);
         System.out.printf("Valor de Y: %.3f", y);
+
+        sc.close();
     }
 }
